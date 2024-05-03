@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    color: #190041 ;
+    font-size: 18px;
+    background-color: #DCFD82;
+    padding: 20px;
+}
+header h2 {
+    font-size: 16px;
+}
+.container {
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    padding: 5%;
+    margin: 0 auto;
+    background-color: #FEFBF5 ;
+    height: 100vh;
+}
+.container_form_text {
+    text-align: center;
+    width: 20%;
+}
+.titulo {
+    color: #190041 ;
+    font-size: 26px;
+    padding: 6%;
+    font-family: 'Roboto', sans-serif;
+}
+.container_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form input {
+    font-size: 24px;
+    color: #190041;
+    background-color: #FEFBF5;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 6px;
+    text-align: start;
+}
+form button {
+    background-color: transparent;
+    color: #190041;
+    font-size: 26px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 30px 0 0 0;
+}
+form button:hover {
+    border-bottom: 2px solid black;
+}
+.container_table {
+    padding-top: 0.2%;
+    padding-left: 10%;
+}
+.titulo_table {
+    color: #190041 ;
+    font-size: 26px;
+    padding: 6%;
+    font-family: 'Roboto', sans-serif;
+    text-align: start;
+}
+table {
+    width: 100%;
+    table-layout:auto;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+}
+th {
+    background-color: #f2f2f2; 
+}
+tfoot td {
+    background-color: #f2f2f2; 
+}
+.btn-excluir {
+    background-color: #FF6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn-excluir:hover {
+    background-color: #FF5733;
+}
+.col-nome {
+    width: 25%;
+}
+.col-email {
+    width: 30%;
+}
+.col-numero {
+    width: 20%;
+}
+.col-acao {
+    width: 25%;
+}
